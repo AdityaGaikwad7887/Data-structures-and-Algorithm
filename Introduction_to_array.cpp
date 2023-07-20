@@ -12,7 +12,8 @@ int main()
 
     cout<<endl<<B[5]<<" "<<B[10]<<endl;
 
-    int A[3] = {2,3,4};
+    int A[9] = {2,3,4,2,57,22,13,24,3};
     cout<<endl<<"The size of array A is "<<sizeof(A)<<endl;
+    
     return 0;
 }
