@@ -13,6 +13,7 @@ int main()
         cin>>a[i];
     }
     sort(a,a+n);
+    // sort(v.begin(),v.end(),greater<int>());    // this function sort a vector in decreasing order
     for (int i = 0; i < n ; i++)
     {
         cout<<a[i]<<" ";
