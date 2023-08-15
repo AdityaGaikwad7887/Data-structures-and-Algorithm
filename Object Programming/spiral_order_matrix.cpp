@@ -37,25 +37,25 @@ int main()
 
     while (sr<=er && sc<=ec)
     {
-        for (int i = sc ; i <= ec ; i++)
+        for (int i = sc ; i <= ec && count <n*m ; i++)
         {
             ans.push_back(vp[sr][i]);
             count++;
         }
         sr++;
-        for (int i = sr ; i <= er; i++)
+        for (int i = sr ; i <= er && count <n*m ; i++)
         {
             ans.push_back(vp[i][ec]);
             count++;
         }
         ec--;
-        for (int i = ec ; i >= sc ; i--)
+        for (int i = ec ; i >= sc && count <n*m ; i--)
         {
             ans.push_back(vp[er][i]);
             count++;
         }
         er--;
-        for (int i = er ; i>= sr ; i--)
+        for (int i = er ; i>= sr && count <n*m ; i--)
         {
             ans.push_back(vp[i][sc]);
             count++;
