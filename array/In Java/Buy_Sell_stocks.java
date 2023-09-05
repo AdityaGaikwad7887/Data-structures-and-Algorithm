@@ -1,4 +1,4 @@
-/*
+
 public class Buy_Sell_stocks {
     public static int profit(int prices[]) {
 
@@ -29,13 +29,5 @@ public class Buy_Sell_stocks {
     }
 }
 
-*/
 
 //   Above code has O(2n) time complexity
-
-public class Buy_Sell_stocks{
-    public static void main(String args[]){
-        long maxsum =
-    }
-}
-
