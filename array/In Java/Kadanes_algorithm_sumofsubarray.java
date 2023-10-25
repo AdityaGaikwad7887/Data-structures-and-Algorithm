@@ -17,7 +17,6 @@ public class Kadanes_algorithm_sumofsubarray {
             currentsum = 0;
             for (int i = 0; i < numbers.length; i++) {
                 currentsum = currentsum >= 0 ? currentsum + numbers[i] : 0;
-                System.out.println(currentsum);
                 if (maxsum < currentsum) {
                     maxsum = currentsum;
                 }
@@ -29,6 +28,7 @@ public class Kadanes_algorithm_sumofsubarray {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("size : ");
         int size = sc.nextInt();
         int numbers[] = new int[size];
         for (int i = 0; i < size ; i++){

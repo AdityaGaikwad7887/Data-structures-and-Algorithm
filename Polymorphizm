@@ -1,0 +1,36 @@
+In polymorphizm 
+
+1) compail time 
+
+    - function overloading 
+
+2) runtime 
+    - function overriding 
+      /*
+      class Animal { 
+        void eat(){
+            System.out.println("eat anything");
+        }
+      }
+
+      class Man {
+        void eat() {
+            System.out.println("eat meet");
+        }
+      }
+
+      public static void main(String args[]){
+
+        Man m = new man();
+        m.eat();
+
+        // output is --> eat meet 
+
+        Animal a = new Animal();
+        a.eat();
+
+        // output is --> eat anything
+
+      }
+      
+      */

@@ -1,0 +1,7 @@
+Time complexity : it is dependent on input size ,
+                  it defines rough idea about how many time is requird for runing code 
+
+Space complexity : it is dependent on size code and decleartion of variables 
+                   if gives rough idea about how mach storage or ram is requird for our code 
+
+NOTE THAT ::: efficiency code solution is always inversely proposinal to (Time && Space) complexity;
